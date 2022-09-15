@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-cont" id="score-cont-home">
+                <h3 id="home-title">HOME</h3>
+                <span class="score" id="score-el-home">0</span>
+                <div class="increment-cont">
+                    <div class="incrementors-cont">
+                        <div id="home-plus1" class="incrementors" onclick="homePlus(1); audio1.play();">+1</div>
+                    </div>
+                    <div class="incrementors-cont">
+                        <div id="home-plus2" class="incrementors" onclick="homePlus(2); audio2.play();">+2</div>
+                    </div>
+                    <div class="incrementors-cont">
+                        <div id="home-plus3" class="incrementors" onclick="homePlus(3); audio3.play();">+3</div>
+                    </div>
+                </div>
+            </div>
+            <div id="refresh" onclick="refresh(); audio4.play();"></div>
+            <div class="score-cont" id="score-cont-guest">
+                <h3 id="guest-title">GUEST</h3>
+                <span class="score" id="score-el-guest">0</span>
+                <div class="increment-cont">
+                    <div class="incrementors-cont">
+                        <div id="guest-plus1" class="incrementors" onclick="guestPlus(1); audio1.play();">+1</div>
+                    </div>
+                    <div class="incrementors-cont">
+                        <div id="guest-plus2" class="incrementors" onclick="guestPlus(2); audio2.play();">+2</div>
+                    </div>
+                    <div class="incrementors-cont">
+                        <div id="guest-plus3" class="incrementors" onclick="guestPlus(3); audio3.play();">+3</div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

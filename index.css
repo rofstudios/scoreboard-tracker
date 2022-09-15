@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+#refresh {
+    background-image: url(refresh.ico);
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+}
+
+.score-cont {
+    text-align: center;
+}
+
+.score {
+    display: inline-block;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 50px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;  
+    background-color: black;
+    padding: 77.5px;
+    /* width: 155px; */
+}
+
+#home-title, #guest-title {
+    line-height: 0;
+    /* padding-top: 20px; */
+    margin: 20px 0;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.increment-cont {
+    display: flex;
+    justify-content: space-around;       
+    width: 185px;
+    height: 45px;
+    margin: 20px auto;
+}
+
+.incrementors-cont {
+    width: 45px;
+    height: 45px;
+        border: 2px solid #9AABD8;
+    border-radius: 8%;
+}
+
+.incrementors {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+    margin: 13%;
+    color: #9AABD8;
+
+}
